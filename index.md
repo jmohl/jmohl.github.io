@@ -1,4 +1,4 @@
-This site is very much a work in progress. If you are looking for something in particular, you can check out my [github page proper] (https://github.com/jmohl) or contact me at jefftmohl@gmail.com 
+This site is very much a work in progress. If you are looking for something in particular, you can check out my [github page proper](https://github.com/jmohl) or contact me at jefftmohl@gmail.com 
 
 ### Publications
 
