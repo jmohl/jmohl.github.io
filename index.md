@@ -2,7 +2,7 @@ This site is very much a work in progress. If you are looking for something in p
 
 ### Publications
 
-**Mohl JT**, Caruso VC, Tokdar ST, Groh JM. [Sensitivity and specificity of a Bayesian single trial analysis for time varying neural signals](https://www.biorxiv.org/content/10.1101/690958v1). bioRxiv 2019. doi:10.1101/690958
+**Mohl JT**, Caruso VC, Tokdar ST, Groh JM. [Sensitivity and specificity of a Bayesian single trial analysis for time varying neural signals](https://www.biorxiv.org/content/10.1101/690958v1). bioRxiv 2019 **preprint**. doi:10.1101/690958
 
 
 Caruso VC, **Mohl JT**, Glynn C, et al. [Single neurons may encode simultaneous stimuli by switching
