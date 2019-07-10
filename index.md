@@ -1,7 +1,7 @@
 ## About
-I'm a PhD candidate at Duke University studying the [neural basis of multisensory perception](https://people.duke.edu/~jmgroh/). My research deals with the coordination of visual and auditory processing for localization. Both humans and monkeys are able to combine information from these different sensory systems in order to make the best possible decision (given limitations of sensory organs themselves). Understanding how this is accomplished in neural structures is the primary focus of my research. I address this question through a combination of behavioral modeling, single neuron electrophysiology, and computational analysis of neural signals. 
+I'm a PhD candidate at Duke University studying the [neural basis of multisensory perception](https://people.duke.edu/~jmgroh/). Specifically, I study the coordination of visual and auditory processing for localization of sensory stimuli. Both humans and monkeys are able to combine information from these different sensory systems in order to make the best possible decision (given limitations of sensory organs themselves). My research focuses on understanding how this is accomplished in neural structures. I address this question through a combination of behavioral modeling, single neuron electrophysiology, theory, and computational analysis of neural signals. 
 
-This site is very much a work in progress. If you are looking for something in particular, you can check out my [github page proper](https://github.com/jmohl) or contact me at jefftmohl@gmail.com 
+This site is very much a work in progress. If you are looking for something in particular, you can check out my [github page proper](https://github.com/jmohl), my [cv](CVJuly2019.pdf), or contact me at jefftmohl@gmail.com 
 
 ### Publications
 
@@ -14,5 +14,7 @@ between activity patterns](https://www.nature.com/articles/s41467-018-05121-8). 
 ### Posters
 [Distinct Codes As A Substrate For Causal Inference In
 Primate Superior Colliculus Neurons](sfn_2018_mohl.pdf)
+
+
 
 ### [CV](CVJuly2019.pdf)
