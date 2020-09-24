@@ -1,0 +1,18 @@
+{% assign sorted_pubs = (site.publications | sort: 'date' | reverse)%}
+{% for pub in sorted_pubs %}
+<div class="col s12">
+  <div class="card hoverable">
+    <div class="card-content">
+	  <span id="pub-title" class="card-title">{{pub.title}}</span>
+      <p id="info">
+        {{pub.authors}}, ({{pub.date | date: "%Y"}}) <b>{{pub.journal}}</b>
+      </p>
+    </div>
+      <div class="card-action">
+		<a href="{{pub.pub_url}}">
+          Go to paper
+        </a>
+      </div>
+  </div>
+</div>
+{% endfor %}

@@ -1,0 +1,105 @@
+---
+layout: page
+title: "Jeff Mohl, PhD"
+css: ["index.css"]
+---
+<div class="row">
+ <style>
+  body {
+    background-image: url('{{site.baseurl}}/assets/res/mountains.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  </style>
+  <div class="row">
+  	<div class="col s8">
+	  <div class="card">
+      <div class="card-content">
+            <p id="content">I'm currently a Postdoctoral Research Associate at Duke University, where I use computational modeling and statistical analyses to better understand the brain. My research deals with neural coding in sensory systems, and particularly how multiple types of sensory information can be integrated together to make decisions. Neural data, like many other types of data, is complex and ambiguous and benefits from both common machine learning techniques and completely novel statistical analyses. Feel free to look around the site to see how I've been using these techniques to answer scientific questions.</p>
+      </div>
+	  <div class="card-action">
+        <a href="{{'//about' | prepend: site.baseurl}}">
+          More about me
+        </a>
+      </div>
+	  </div>
+    </div>
+	<div class="col s4">
+      <div class="card hoverable">
+      <div class="card-content">
+        <span id="post-title" class="card-title">Training</span>
+		  <img src = "{{site.baseurl}}/assets/res/duke_word.png" id = "uni_logo"> 
+		  <p id = "content"> PhD in Neurobiology, 2014 - 2020 </p>
+		  <p id = "sub-content"> Auditory and visual localization under uncertainty</p>
+		  <br>
+		  <img src = "{{site.baseurl}}/assets/res/MSU_logo.jpg" id = "uni_logo"> 
+		  <p id = "content"> B.S. Mechanical engineering, 2009 - 2014 </p>
+		  <p id = "sub-content"> Minor: Mechatronics, GPA:3.86</p>
+	  </div>
+      <div class="card-action">
+        <a href="{{'//projects' | prepend: site.baseurl}}">
+          CV
+        </a>
+      </div>
+      </div>
+    </div>
+  </div>
+  
+  {% for post in paginator.posts %}
+  <div class="col s12" width = 100%>
+    <div class="card hoverable">
+      <div class="card-content">
+        <span id="post-title" class="card-title">{{post.title}}</span>
+        <p id="post-content">{{post.excerpt | remove: '<p>' | remove: '</p>'}}</p>
+      </div>
+      <div class="card-action">
+        <a href="{{post.url | prepend: site.baseurl}}">
+          Read More
+        </a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  <div class="col s12 center-align">
+    <ul class="pagination">
+      <li class="{% unless paginator.previous_page %}disabled{% else %}waves-effect{% endunless %}">
+        {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+        <a href="{{site.baseurl}}/">
+        {% else %}
+        <a href="{{site.baseurl}}/page{{paginator.previous_page}}">
+        {% endif %}
+        {% else %}
+        <a href="#!">
+        {% endif %}
+          <i class="material-icons">chevron_left</i>
+        </a>
+      </li>
+      {% if paginator.page == 1 %}
+      <li class="active teal">
+        <a href="#!">1</a>
+      {% else %}
+      <li class="waves-effect">
+        <a href="{{site.baseurl}}/">1</a>
+      {% endif %}
+      </li>
+      {% for count in (2..paginator.total_pages) %}
+      {% if count == paginator.page %}
+      <li class="active teal"><a href="#!">{{count}}</a></li>
+      {% else %}
+      <li class="waves-effect"><a href="{{site.baseurl}}/page{{count}}">{{count}}</a></li>
+      {% endif %}
+      {% endfor %}
+      <li class="{% unless paginator.next_page %}disabled{% else %}waves-effect{% endunless %}">
+        {% if paginator.next_page %}
+        <a href="{{site.baseurl}}/page{{paginator.next_page}}">
+        {% else %}
+        <a href="#!">
+        {% endif %}
+          <i class="material-icons">chevron_right</i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
