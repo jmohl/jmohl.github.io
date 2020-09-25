@@ -5,6 +5,8 @@ authors: Valeria C Caruso, Jeff T Mohl, Christopher Glynn, Jungah Lee, Shawn M W
 date: 2018-07-13
 journal: "Nature Communications"
 pub_url: "https://www.nature.com/articles/s41467-018-05121-8"
+paper_url: "/assets/pdfs/mplx_natcom.pdf"
+
 ---
 
 **Abstract** 

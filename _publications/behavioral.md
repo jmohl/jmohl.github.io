@@ -5,6 +5,7 @@ authors: Jeff T. Mohl, John M. Pearson, and Jennifer M. Groh
 date: 2020-08-24
 journal: "Journal of Neurophysiology"
 pub_url: "https://journals.physiology.org/doi/abs/10.1152/jn.00046.2020"
+paper_url: "/assets/pdfs/beh_CI.pdf"
 ---
 **Abstract**
 
