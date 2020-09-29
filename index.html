@@ -19,7 +19,7 @@ css: ["index.css"]
             <p id="content">I'm currently a Postdoctoral Research Associate at Duke University, where I use computational modeling and statistical analyses to better understand the brain. My research deals with neural coding in sensory systems, and particularly how multiple types of sensory information can be integrated together to make decisions. Neural data, like many other types of data, is complex and ambiguous and benefits from both common machine learning techniques and completely novel statistical analyses. Feel free to look around the site to see how I've been using these techniques to answer scientific questions.</p>
       </div>
 	  <div class="card-action">
-        <a href="{{'/about' | prepend: site.baseurl}}">
+        <a href="{{'/about' | prepend: site.baseurl}}" id="important_link">
           More about me
         </a>
       </div>
@@ -28,7 +28,6 @@ css: ["index.css"]
 	<div class="col s4">
       <div class="card hoverable">
       <div class="card-content">
-        <span id="post-title" class="card-title">Training</span>
 		  <img src = "{{site.baseurl}}/assets/res/duke_word.png" id = "uni_logo"> 
 		  <p id = "content"> PhD in Neurobiology, 2014 - 2020 </p>
 		  <p id = "sub-content"> Auditory and visual localization under uncertainty</p>
@@ -38,10 +37,10 @@ css: ["index.css"]
 		  <p id = "sub-content"> Minor: Mechatronics, GPA:3.86</p>
 	  </div>
       <div class="card-action">
-	    <a href="{{site.url}}/assets/pdfs/Jeff_Mohl_Resume.pdf">
+	    <a href="{{site.url}}/assets/pdfs/Jeff_Mohl_Resume.pdf" id="important_link">
 		  Download Resume
         </a>
-        <a href="{{site.url}}/assets/pdfs/CV.pdf">
+        <a href="{{site.url}}/assets/pdfs/CV.pdf" id="important_link">
 		  CV
         </a>
       </div>
@@ -57,7 +56,7 @@ css: ["index.css"]
         <p id="post-content">{{post.excerpt | remove: '<p>' | remove: '</p>'}}</p>
       </div>
       <div class="card-action">
-        <a href="{{post.url | prepend: site.baseurl}}">
+        <a href="{{post.url | prepend: site.baseurl}}" id="important_link">
           Read More
         </a>
       </div>
